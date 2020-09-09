@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@media (max-width: 600px) {
+  * {
+    flex-wrap: wrap;
+  }
+  
+  .level {
+    margin-bottom: 20px;
+  }
+  
+  form-wrap {
+    width: 280px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(#601010, #340000, #050000);
+  background-attachment: fixed;
+  
+}
+
+body {
+  height: 2000px;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  height: 12vh;
+  box-sizing: border-box;
+  display: flex;
+  background-color: rgba(0,0,0,0.9);
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 4px;
+  z-index: 20;
+}
+
+#header-img {
+  margin-left: 35px;
+  width: 55px;
+}
+
+#nav-bar {
+  display: block;
+  height: 100%;
+}
+
+.nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background-color: rgba(170,1,0,1);
+  padding: 10px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  margin-right: 35px;
+  position: relative;
+  top: 20px;
+}
+
+#video {
+  display: flex;
+  position: relative;
+  margin: auto;
+  top: 125px;
+  border: 7px solid rgba(170,1,0,0.6);
+  border-radius: 2%;
+  width: 75vw;
+  height: 65vh;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #ccc;
+  font-size: 30px;
+}
+
+#email {
+  margin-bottom: 15px;
+  width: 300px;
+  height: 30px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 2%;
+}
+
+#submit {
+  border: none;
+  padding-top: 3px;
+  width: 100px;
+  height: 30px;
+  background-color: #ccc;
+  font-weight: bold;
+}
+
+#submit:hover {
+  color: rgba(170,0,0,1);
+  background-color: rgba(70,0,0,1);
+  cursor: pointer;
+}
+
+.form-wrap {
+  margin: auto;
+  background-color: red;
+  position: relative;
+  top: 240px;
+  height: 150px;
+  width: 380px;
+  padding-top: 25px;
+  background-color: rgba(170,0,0,1);
+}
+
+#models {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 180px;
+  justify-content: space-around;
+}
+
+.level {
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  font-family: 'roboto', sans-serif;
+  padding: 10px;
+  background-color: rgba(170,0,0,1);
+}
+
+h2 {
+  background-color: rgba(70,0,0,1);
+  padding: 4px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5%;
+}
